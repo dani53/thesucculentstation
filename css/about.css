@@ -1,0 +1,64 @@
+
+.selfie {
+    border: none;
+    height: 300px;
+    width: 300px;
+    border-color: gold;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.bio-container:after {
+    content:"";
+    display: block;
+    clear: both;
+    font-family: 'Anton', sans-serif;
+}
+
+.bio-section {
+ 
+}
+
+.background {
+    background-image: url('../images/afterglow.png');
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.bio-content {
+    text-align: center;
+    word-spacing: 50px;
+    margin-top: 0px;
+    padding-top: 225px;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.info-section {
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.info-container:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+

@@ -1,0 +1,30 @@
+.background {
+    background-image: url('../images/wallpaper.jpg');
+    height: 700px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.form-container {
+    width: 75%;
+    margin-top: 5px;
+    margin-left: 10%;
+    border: solid;
+    border-color: white;
+    border-radius: 2%;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.background .map-container {
+    width: 33%;
+    float: right;
+    margin-top: 95px;
+    margin-right: 10%;
+    border-bottom-width: thick;
+    border: solid;
+    border-color: white;
+    border-radius: 2%;
+}
+

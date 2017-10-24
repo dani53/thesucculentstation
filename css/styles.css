@@ -1,0 +1,148 @@
+/**Start Nav Style**/
+
+.body {
+    margin: 0px;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    display: inline-block; 
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.1);
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 10px 10px 50px 20px whitesmoke inset;
+}
+
+.logo {
+    height: 100%;
+}
+
+.nav-list {
+    float: right;
+    margin-top: 35px;
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    list-style: none;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 40px;
+}
+
+.nav-link {
+    color: grey;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    font-size: larger;
+    transition-timing-function: ease-in-out;
+    transition-duration: .6s;
+}
+/**End Nav Style**/
+
+
+
+/**Start Hero Style**/
+.hero-background {
+    background-image: url('../images/echeveria.png');
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.hero-text {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 225px;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.text-background {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/**End Hero Style**/
+
+/**START COLUMN STYLES**/
+.column-container {
+    padding: 15px;
+}
+
+.column-container:after {
+    content: "";
+    text-align: center;
+    display: block;
+    clear: both;
+    background-color: transparent;
+}
+
+.column {
+    width: 22.5%;
+    border: none;
+    text-align: center;
+    float: left;
+    margin-left: 2%;
+}
+
+.column-image {
+    width: 100%;
+}
+/**END COLUMN STYLES**/
+
+/**START FOOTER STYLES**/
+
+.main-footer: {
+    border: 1px solid grey;
+    height: 151px;
+}
+
+.main-footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer-section {
+    width: 33%;
+    height: 75px;
+    float: left;
+    padding: 0px 0px;
+    background: honeydew;
+    margin: 0 auto;
+    text-align: center;
+    color: lightgrey;
+    font-size: small;
+}
+
+.section {
+    height: 50px;
+    width: 150px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.social-media {
+    height: 60px;
+    width: 50px;
+}
+
+.social-media .a .fa {
+    color: black;
+}
+
+
+/**END FOOTER STYLES**/
