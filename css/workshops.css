@@ -1,0 +1,19 @@
+.background {
+    background-image: url('../images/wreath.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.registration-container {
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-weight: bolder;
+    border: solid;
+    border-color: white;
+    border-radius: 2%;
+    background-color: rgba(255,255,255,0.75);
+}
+

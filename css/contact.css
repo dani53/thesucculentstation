@@ -1,6 +1,8 @@
 .background {
     background-image: url('../images/wallpaper.jpg');
-    height: 700px;
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center center;
     padding-top: 15%;
@@ -8,23 +10,34 @@
 }
 
 .form-container {
-    width: 75%;
+    width: 80%;
     margin-top: 5px;
     margin-left: 10%;
+    font-weight: bolder;
     border: solid;
     border-color: white;
     border-radius: 2%;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.75);
 }
 
 .background .map-container {
-    width: 33%;
-    float: right;
-    margin-top: 95px;
-    margin-right: 10%;
+    width: 80%;
+    clear: left;
+    margin-top: 45px;
+    margin-left: 10%;
     border-bottom-width: thick;
     border: solid;
     border-color: white;
     border-radius: 2%;
 }
 
+
+
+.hours-container {
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+    background-color: rgba(255,255,255,0.75);
+    border: solid white;
+    border-radius: 4%;
+}

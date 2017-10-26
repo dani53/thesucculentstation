@@ -1,15 +1,3 @@
-
-.selfie {
-    border: none;
-    height: 300px;
-    width: 300px;
-    border-color: gold;
-    border-radius: 25px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    float: left;
-}
-
 .bio-container:after {
     content:"";
     display: block;
@@ -18,16 +6,15 @@
 }
 
 .bio-section {
- 
+    color: black;
 }
 
 .background {
     background-image: url('../images/afterglow.png');
-    height: 500px;
+    height: 900px;
     background-size: cover;
     background-position: center center;
     padding-top: 5%;
-    padding-bottom: 1%;
 }
 
 .bio-content {
@@ -41,11 +28,14 @@
 }
 
 .info-section {
-    width: 30%;
-    margin-left: 2%;
     float: left;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 2%;
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 .info-container:after {

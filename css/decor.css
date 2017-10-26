@@ -1,0 +1,67 @@
+.background-section {
+    background-image: url('../images/sempervivum_background.jpg');
+    height: 600px;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 1%;
+    padding-bottom: 12%;
+}
+
+.background-section:after {
+    content:"";
+    display: block;
+    clear: both;
+    background-color: transparent;
+}
+
+ background {
+    background-image: url('../images/sempervivum_background.jpg');
+    height: 700px;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 15%;
+    margin-right: 10px;
+    padding-bottom: 5%;
+}
+
+
+.collage-container {
+    width: 70%;
+    margin-left: 120px;
+    background-color: rgba(255,255,255,0.75);
+}
+
+.image-container {
+  width: 575px;
+  position: absolute;
+}
+
+.collage-image {
+  height: 40%;
+  width: 40%;
+  border: solid rgb(255,255,255);
+  border-color: white;
+  border-radius: 2%;
+}
+
+.top {
+    top: 175px;
+}
+
+.bottom {
+    top: 425px;
+}
+
+.left {
+    left: 33%;
+}
+
+.right {
+    right: auto;
+}
+
+.middle {
+    left: 66%;
+}
